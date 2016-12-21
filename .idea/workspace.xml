@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0943a04-c281-4d90-9032-27522cf4cdb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iflex_x2_product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumables.html" afterPath="$PROJECT_DIR$/consumables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/main.sass" afterPath="$PROJECT_DIR$/css/sass/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iflex.html" afterPath="$PROJECT_DIR$/iflex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omet_eq.html" afterPath="$PROJECT_DIR$/omet_eq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omet_ofs.html" afterPath="$PROJECT_DIR$/omet_ofs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.html" afterPath="$PROJECT_DIR$/partners.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seminars.html" afterPath="$PROJECT_DIR$/seminars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spares.html" afterPath="$PROJECT_DIR$/spares.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support_equipment.html" afterPath="$PROJECT_DIR$/support_equipment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xflex_x4.html" afterPath="$PROJECT_DIR$/xflex_x4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zapros.html" afterPath="$PROJECT_DIR$/zapros.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,20 +20,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="omet_eq.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="omet_eq.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omet_eq.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="933">
-              <caret line="206" column="33" lean-forward="false" selection-start-line="206" selection-start-column="33" selection-end-line="206" selection-end-column="33" />
+            <state relative-caret-position="141">
+              <caret line="98" column="53" lean-forward="true" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iflex_x2_product.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iflex_x2_product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iflex_x2_product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="790">
               <caret line="365" column="30" lean-forward="true" selection-start-line="365" selection-start-column="30" selection-end-line="365" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#9;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
@@ -89,9 +72,9 @@
         <option value="$PROJECT_DIR$/support_equipment.html" />
         <option value="$PROJECT_DIR$/xflex_x4.html" />
         <option value="$PROJECT_DIR$/zapros.html" />
-        <option value="$PROJECT_DIR$/omet_eq.html" />
         <option value="$PROJECT_DIR$/css/sass/main.sass" />
         <option value="$PROJECT_DIR$/iflex_x2_product.html" />
+        <option value="$PROJECT_DIR$/omet_eq.html" />
       </list>
     </option>
   </component>
@@ -249,12 +232,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482307672572</updated>
-      <workItem from="1482307677527" duration="2382000" />
+      <workItem from="1482307677527" duration="2535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2382000" />
+    <option name="totallyTimeSpent" value="2535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="618" width="1929" height="439" extended-state="0" />
@@ -401,14 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omet_eq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
-          <caret line="206" column="33" lean-forward="false" selection-start-line="206" selection-start-column="33" selection-end-line="206" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -419,11 +394,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iflex_x2_product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="790">
           <caret line="365" column="30" lean-forward="true" selection-start-line="365" selection-start-column="30" selection-end-line="365" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#9;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omet_eq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="98" column="53" lean-forward="true" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
