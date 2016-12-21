@@ -652,6 +652,12 @@ body {
   margin-right: -20px; }
   .product__nav {
     font-size: 0; }
+    .product__nav--repair .product__nav-link.is-active {
+      background-color: #69af3f; }
+    .product__nav--repair .product__nav-link:hover {
+      background-color: #ca3c2a; }
+    .product__nav--repair .product__nav-link {
+      padding: 6px 18px; }
   .product__nav-link {
     box-sizing: border-box;
     display: inline-block;
@@ -697,6 +703,15 @@ body {
     width: calc(100% - 237px); }
     .product__title--lg {
       width: calc(100% - 113px); }
+  .product__text {
+    margin: 10px 0;
+    text-align: right; }
+    .product__text p {
+      text-align: left;
+      font-size: 13px !important; }
+  .product__img-repair {
+    display: block;
+    margin: 25px auto 0; }
   .product__info-list {
     margin: 15px 0 20px;
     padding-left: 15px; }

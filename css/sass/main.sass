@@ -694,6 +694,12 @@ body
    margin-right: -20px
    &__nav
       font-size: 0
+      &--repair .product__nav-link.is-active
+         background-color: #69af3f
+      &--repair .product__nav-link:hover
+         background-color: #ca3c2a
+      &--repair .product__nav-link
+         padding: 6px 18px
    &__nav-link
       box-sizing: border-box
       display: inline-block
@@ -739,7 +745,15 @@ body
       width: calc(100% - 237px)
       &--lg
          width: calc(100% - 113px)
-
+   &__text
+      margin: 10px 0
+      text-align: right
+      p
+         text-align: left
+         font-size: 13px!important
+   &__img-repair
+      display: block
+      margin: 25px auto 0
    &__info-list
       margin: 15px 0 20px
       padding-left: 15px
