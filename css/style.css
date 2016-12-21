@@ -749,6 +749,8 @@ body {
       margin-bottom: 10px;
       font-size: 14px;
       font-weight: 700; }
+    .product__item span {
+      font-weight: 400; }
     .product__item-descr {
       font-size: 12px; }
     .product__item-img {
