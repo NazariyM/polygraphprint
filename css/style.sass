@@ -857,9 +857,11 @@ body
          img
             display: block
    &__material
-      margin: 10px 0
+      margin: 10px 0 15px
       font-size: 0
       text-align: center
+      p
+         font-size: 13px
       &-img
          box-sizing: border-box
          display: inline-block
@@ -881,15 +883,38 @@ body
                margin: 3px
          &--3
             &:nth-child(2)
+               float: left
                width: 50%
+               margin: 10px 0
             &:nth-child(3)
+               position: relative
+               top: 135px
                width: 115px
-               height: 370px
+               height: 400px
+               box-shadow: none
+            &:nth-child(4)
+               clear: both
+               display: block
+               width: 50%
+         &--4
+            width: calc(50% - 6px)
+            margin: 3px
+            height: 400px
+         &--5
+            width: 50%
+            box-shadow: none
+         &--6
+            width: calc(50% - 6px)
+            margin: 3px
             &:nth-child(4)
                display: block
-               width: 100%
+               margin: 2px auto 0
+         &--7
+            width: calc(50% - 6px)
+            margin: 3px
 
 .aluberg-logo
    width: 200px
+   display: none
    &--material
       display: block

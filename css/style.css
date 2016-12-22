@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
  * HTML5 display definitions
@@ -51,7 +52,6 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers. */
 a:focus {
   outline: thin dotted; }
-
 a:active, a:hover {
   outline: 0; }
 
@@ -109,7 +109,7 @@ pre {
 /**
  * Set consistent quote types. */
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  quotes: "“" "”" "‘" "’"; }
 
 /**
  * Address inconsistent and variable font size in all browsers. */
@@ -277,13 +277,13 @@ table {
   zoom: 1; }
 
 .clearfix:before, .clearfix:after {
-  content: "\0020";
+  content: " ";
   display: block;
   height: 0;
   overflow: hidden; }
 
 .group:before, .group:after {
-  content: "\0020";
+  content: " ";
   display: block;
   height: 0;
   overflow: hidden; }
@@ -291,8 +291,7 @@ table {
 .clearfix:after, .group:after {
   clear: both; }
 
-/*
- *@font-face {
+/*@font-face {
  *    font-family: "gillsans_lightregular";
  *    src: url($fonts_dir+'GillSansLightC.eot');
  *    src: url($fonts_dir+'GillSansLightC.eot') format('embedded-opentype'),
@@ -495,7 +494,7 @@ body {
     width: 100%;
     padding: 0;
     /* Left Sidebar
-       *----------------------------------------------------------------------------- */ }
+     *----------------------------------------------------------------------------- */ }
     .middle .container .left-sidebar {
       float: left;
       width: 280px; }
@@ -518,7 +517,7 @@ body {
   .middle:after {
     display: table;
     clear: both;
-    content: ''; }
+    content: ""; }
 
 /* Footer
  *----------------------------------------------------------------------------- */
@@ -592,16 +591,16 @@ body {
 @media screen and (max-width: 480px) {
   body {
     overflow-x: hidden; } }
-
 @media print {
   header, nav, footer {
     display: none; }
+
   img {
     max-width: 500px; }
+
   body {
     font: 12pt Georgia, "Times New Roman", Times, serif;
     line-height: 1.3; } }
-
 .equip {
   margin: 15px -20px 0 0; }
   .equip__table {
@@ -623,8 +622,7 @@ body {
     font-size: 0;
     text-decoration: none;
     color: #000; }
-    .equip__product:hover .equip__product-name,
-    .equip__product:hover .equip__product-descr {
+    .equip__product:hover .equip__product-name, .equip__product:hover .equip__product-descr {
       text-decoration: underline; }
   .equip__col {
     display: table-cell;
@@ -665,7 +663,7 @@ body {
       height: 82px;
       border-bottom: 2px solid #fff; }
       .product__nav--consumables .product__nav-link::after {
-        content: '';
+        content: "";
         display: inline-block;
         vertical-align: middle;
         height: 100%;
@@ -687,7 +685,7 @@ body {
     width: 20%;
     text-align: center;
     border-right: 2px solid #fff;
-    transition: .2s ease-in;
+    transition: 0.2s ease-in;
     font-weight: 700; }
     .product__nav-link.is-active {
       background-color: #ca3c2a;
@@ -709,13 +707,13 @@ body {
     color: #fff;
     text-decoration: none;
     background-color: #5e9c38;
-    transition: .2s ease-in; }
+    transition: 0.2s ease-in; }
     .product__brochure:hover {
       background-color: #75be4a; }
   .product__request {
     text-align: justify; }
     .product__request::after {
-      content: '';
+      content: "";
       display: inline-block;
       vertical-align: middle;
       width: 100%; }
@@ -814,9 +812,11 @@ body {
       .product__item-img img {
         display: block; }
   .product__material {
-    margin: 10px 0;
+    margin: 10px 0 15px;
     font-size: 0;
     text-align: center; }
+    .product__material p {
+      font-size: 13px; }
     .product__material-img {
       box-sizing: border-box;
       display: inline-block;
@@ -836,12 +836,40 @@ body {
           width: calc(50% - 6px);
           margin: 3px; }
       .product__material-img--3:nth-child(2) {
-        width: 50%; }
+        float: left;
+        width: 50%;
+        margin: 10px 0; }
       .product__material-img--3:nth-child(3) {
+        position: relative;
+        top: 135px;
         width: 115px;
-        height: 370px; }
+        height: 400px;
+        box-shadow: none; }
+      .product__material-img--3:nth-child(4) {
+        clear: both;
+        display: block;
+        width: 50%; }
+      .product__material-img--4 {
+        width: calc(50% - 6px);
+        margin: 3px;
+        height: 400px; }
+      .product__material-img--5 {
+        width: 50%;
+        box-shadow: none; }
+      .product__material-img--6 {
+        width: calc(50% - 6px);
+        margin: 3px; }
+        .product__material-img--6:nth-child(4) {
+          display: block;
+          margin: 2px auto 0; }
+      .product__material-img--7 {
+        width: calc(50% - 6px);
+        margin: 3px; }
 
 .aluberg-logo {
-  width: 200px; }
+  width: 200px;
+  display: none; }
   .aluberg-logo--material {
     display: block; }
+
+/*# sourceMappingURL=style.css.map */
