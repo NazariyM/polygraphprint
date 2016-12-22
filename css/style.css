@@ -482,7 +482,8 @@ body {
           display: block;
           float: left;
           text-decoration: none;
-          color: #000000; }
+          color: #000000;
+          font-weight: 700; }
           .header .header_bottom ul li a:hover {
             text-decoration: underline; }
 
