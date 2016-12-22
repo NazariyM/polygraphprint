@@ -700,6 +700,23 @@ body
          background-color: #ca3c2a
       &--repair .product__nav-link
          padding: 6px 18px
+      &--consumables .product__nav-link.is-active
+         background-color: #7030A0
+      &--consumables .product__nav-link
+         padding: 5px
+         height: 82px
+         border-bottom: 2px solid #fff
+         &::after
+            content: ''
+            display: inline-block
+            vertical-align: middle
+            height: 100%
+            width: 0
+         span
+            display: inline-block
+            vertical-align: middle
+         &:nth-child(5)
+            border-right: none
    &__nav-link
       box-sizing: border-box
       display: inline-block
@@ -737,6 +754,20 @@ body
       transition: .2s ease-in
       &:hover
          background-color: lighten(#69af3f, 5)
+   &__request
+      text-align: justify
+      &::after
+         content: ''
+         display: inline-block
+         vertical-align: middle
+         width: 100%
+      p
+         display: inline-block
+         vertical-align: middle
+         margin: 0
+         font-weight: 700
+      .product__brochure
+         vertical-align: middle
    &__title
       display: inline-block
       vertical-align: bottom
@@ -746,14 +777,17 @@ body
       &--lg
          width: calc(100% - 113px)
    &__text
-      margin: 10px 0
+      margin: 10px 0 0
       text-align: right
       p
-         text-align: left
          font-size: 13px!important
+         text-align: left
    &__img-repair
       display: block
-      margin: 25px auto 0
+      padding: 1px
+      margin: 5px auto 10px
+      box-shadow: 0 0 3px #757575
+      border-radius: 3px
    &__info-list
       margin: 15px 0 20px
       padding-left: 15px
@@ -791,6 +825,11 @@ body
    &__section
       p
          color: #000
+      &--consumables
+         margin-top: 10px
+         text-align: right
+         .product__brochure
+            background-color: #7030A0
    &__item
       display: table
       margin: 10px 40px
@@ -817,3 +856,40 @@ body
          border: 1px solid #b2b2b2
          img
             display: block
+   &__material
+      margin: 10px 0
+      font-size: 0
+      text-align: center
+      &-img
+         box-sizing: border-box
+         display: inline-block
+         vertical-align: middle
+         box-shadow: 0 0 3px #2d2d2d
+         border-radius: 3px
+         &--1
+            width: 34%
+            margin: 3px
+         &--2
+            width: 25%
+            vertical-align: top
+            margin: 3px
+            vertical-align: middle
+            &:nth-child(2),
+            &:nth-child(3)
+               display: inline-block
+               width: calc(50% - 6px)
+               margin: 3px
+         &--3
+            &:nth-child(2)
+               width: 50%
+            &:nth-child(3)
+               width: 115px
+               height: 370px
+            &:nth-child(4)
+               display: block
+               width: 100%
+
+.aluberg-logo
+   width: 200px
+   &--material
+      display: block

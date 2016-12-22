@@ -658,6 +658,23 @@ body {
       background-color: #ca3c2a; }
     .product__nav--repair .product__nav-link {
       padding: 6px 18px; }
+    .product__nav--consumables .product__nav-link.is-active {
+      background-color: #7030A0; }
+    .product__nav--consumables .product__nav-link {
+      padding: 5px;
+      height: 82px;
+      border-bottom: 2px solid #fff; }
+      .product__nav--consumables .product__nav-link::after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+        width: 0; }
+      .product__nav--consumables .product__nav-link span {
+        display: inline-block;
+        vertical-align: middle; }
+      .product__nav--consumables .product__nav-link:nth-child(5) {
+        border-right: none; }
   .product__nav-link {
     box-sizing: border-box;
     display: inline-block;
@@ -695,6 +712,20 @@ body {
     transition: .2s ease-in; }
     .product__brochure:hover {
       background-color: #75be4a; }
+  .product__request {
+    text-align: justify; }
+    .product__request::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%; }
+    .product__request p {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      font-weight: 700; }
+    .product__request .product__brochure {
+      vertical-align: middle; }
   .product__title {
     display: inline-block;
     vertical-align: bottom;
@@ -704,14 +735,17 @@ body {
     .product__title--lg {
       width: calc(100% - 113px); }
   .product__text {
-    margin: 10px 0;
+    margin: 10px 0 0;
     text-align: right; }
     .product__text p {
-      text-align: left;
-      font-size: 13px !important; }
+      font-size: 13px !important;
+      text-align: left; }
   .product__img-repair {
     display: block;
-    margin: 25px auto 0; }
+    padding: 1px;
+    margin: 5px auto 10px;
+    box-shadow: 0 0 3px #757575;
+    border-radius: 3px; }
   .product__info-list {
     margin: 15px 0 20px;
     padding-left: 15px; }
@@ -748,6 +782,11 @@ body {
       margin: 10px 0 15px; }
   .product__section p {
     color: #000; }
+  .product__section--consumables {
+    margin-top: 10px;
+    text-align: right; }
+    .product__section--consumables .product__brochure {
+      background-color: #7030A0; }
   .product__item {
     display: table;
     margin: 10px 40px;
@@ -774,3 +813,35 @@ body {
       border: 1px solid #b2b2b2; }
       .product__item-img img {
         display: block; }
+  .product__material {
+    margin: 10px 0;
+    font-size: 0;
+    text-align: center; }
+    .product__material-img {
+      box-sizing: border-box;
+      display: inline-block;
+      vertical-align: middle;
+      box-shadow: 0 0 3px #2d2d2d;
+      border-radius: 3px; }
+      .product__material-img--1 {
+        width: 34%;
+        margin: 3px; }
+      .product__material-img--2 {
+        width: 25%;
+        vertical-align: top;
+        margin: 3px;
+        vertical-align: middle; }
+        .product__material-img--2:nth-child(2), .product__material-img--2:nth-child(3) {
+          display: inline-block;
+          width: calc(50% - 6px);
+          margin: 3px; }
+      .product__material-img--3:nth-child(2) {
+        width: 50%; }
+      .product__material-img--3:nth-child(3) {
+        width: 115px;
+        height: 370px; }
+
+.aluberg-logo {
+  width: 200px; }
+  .aluberg-logo--material {
+    display: block; }
