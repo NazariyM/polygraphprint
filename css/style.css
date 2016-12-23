@@ -917,6 +917,7 @@ body {
       float: right;
       margin: 0; }
   .product__material p {
+    margin: 10px 0 14px;
     font-size: 13px; }
   .product__material-img {
     box-sizing: border-box;
@@ -966,6 +967,13 @@ body {
     .product__material-img--7 {
       width: calc(50% - 6px);
       margin: 3px; }
+    .product__material-img--8 {
+      display: block;
+      box-shadow: none; }
+    .product__material-img--9 {
+      width: 100%; }
+    .product__material-img--10 {
+      display: block; }
 
 .aluberg-logo {
   width: 200px;
