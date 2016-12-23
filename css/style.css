@@ -798,7 +798,7 @@ body {
 .product__img-repair {
   display: block;
   padding: 1px;
-  margin: 5px auto 10px;
+  margin: 0 auto;
   box-shadow: 0 0 3px #757575;
   border-radius: 3px; }
 .product__info-list {
@@ -835,6 +835,8 @@ body {
       font-size: 0; }
   .product__table-descr {
     margin: 10px 0 15px; }
+.product__section--repair {
+  margin-top: 15px; }
 .product__section--spares {
   margin-bottom: 15px; }
   .product__section--spares .product__head {

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11618891-e303-4bbb-a9d0-83d810a83e29" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header_x4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/xflex_x5.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/08c0af0e6c7192ba3fe95cb10b0b073660e98779/style.sassc" afterPath="$PROJECT_DIR$/css/.sass-cache/08c0af0e6c7192ba3fe95cb10b0b073660e98779/style.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.sass" afterPath="$PROJECT_DIR$/css/style.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omet_eq.html" afterPath="$PROJECT_DIR$/omet_eq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omet_ofs.html" afterPath="$PROJECT_DIR$/omet_ofs.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,36 +31,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="omet_eq.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/omet_eq.html">
+      <file leaf-file-name="omet_ofs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omet_ofs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="99" column="82" lean-forward="true" selection-start-line="99" selection-start-column="82" selection-end-line="99" selection-end-column="82" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#a#5;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="898" column="28" lean-forward="false" selection-start-line="898" selection-start-column="28" selection-end-line="898" selection-end-column="28" />
+            <state relative-caret-position="127">
+              <caret line="181" column="48" lean-forward="true" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="style.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding>
-                <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="898" column="25" lean-forward="false" selection-start-line="898" selection-start-column="25" selection-end-line="898" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url</find>
-      <find>grup</find>
       <find>scaled</find>
       <find>equi</find>
       <find>header</find>
@@ -84,10 +76,15 @@
       <find>.product</find>
       <find>item</find>
       <find>mat</find>
-      <find>product</find>
       <find>spares</find>
       <find>.prod</find>
       <find>iflex</find>
+      <find>request</find>
+      <find>img-re</find>
+      <find>.product__sec</find>
+      <find>product__sect</find>
+      <find>product__section</find>
+      <find>product</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,9 +99,10 @@
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/css/style.sass" />
         <option value="$PROJECT_DIR$/spares.html" />
         <option value="$PROJECT_DIR$/omet_eq.html" />
+        <option value="$PROJECT_DIR$/omet_ofs.html" />
+        <option value="$PROJECT_DIR$/css/style.sass" />
       </list>
     </option>
   </component>
@@ -115,10 +113,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-6" />
+    <option name="y" value="688" />
+    <option name="width" value="1928" />
+    <option name="height" value="367" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -323,12 +321,12 @@
       <workItem from="1482441544181" duration="815000" />
       <workItem from="1482445282459" duration="2931000" />
       <workItem from="1482479959432" duration="5006000" />
-      <workItem from="1482485028281" duration="22791000" />
+      <workItem from="1482485028281" duration="23962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40271000" />
+    <option name="totallyTimeSpent" value="41442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,10 +338,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-6" y="688" width="1928" height="367" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15677084" sideWeight="0.49651742" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15742677" sideWeight="0.49651742" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -614,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="898" column="28" lean-forward="false" selection-start-line="898" selection-start-column="28" selection-end-line="898" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -632,21 +622,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/omet_eq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#a#5;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/omet_ofs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="127">
+          <caret line="181" column="48" lean-forward="true" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omet_eq.html">
+    <entry file="file://$PROJECT_DIR$/css/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="99" column="82" lean-forward="true" selection-start-line="99" selection-start-column="82" selection-end-line="99" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#a#5;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="898" column="25" lean-forward="false" selection-start-line="898" selection-start-column="25" selection-end-line="898" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
