@@ -494,7 +494,8 @@ body {
           bottom: -5px;
           width: 50%;
           height: 5px;
-          transition: 0.4s ease-in-out; }
+          transition: 0.4s ease-in-out;
+          pointer-events: none; }
         .header .header_bottom ul li::before {
           left: 0; }
         .header .header_bottom ul li::after {
