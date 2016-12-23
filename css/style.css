@@ -637,11 +637,14 @@ body {
     font-size: 18px;
     font-weight: 700; }
   .equip__product-img {
+    overflow: hidden;
     width: 40%;
     border-left: 1px solid #b2b2b2;
     border-right: 1px solid #b2b2b2; }
     .equip__product-img img {
-      display: block; }
+      display: block;
+      transform: scale(1.4);
+      object-position: 0 4px; }
   .equip__product-descr {
     width: 45%;
     padding: 10px;
