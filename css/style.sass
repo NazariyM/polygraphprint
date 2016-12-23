@@ -619,6 +619,7 @@ body
                height: 321px
       .content
          padding: 0 0 20px 300px
+         background-color: #fff
    &:after
       display: table
       clear: both
@@ -780,6 +781,12 @@ body
             vertical-align: middle
          &:nth-child(5)
             border-right: none
+      &--spares
+         .product__nav-link:nth-child(1)
+            padding-left: 0
+            padding-right: 0
+         .product__nav-link.is-active
+            background-color: #416dc7
    &__nav-link
       box-sizing: border-box
       display: inline-block
@@ -817,6 +824,8 @@ body
       transition: .2s ease-in
       &:hover
          background-color: lighten(#69af3f, 5)
+      &--spares
+         background-color: #416dc7
    &__request
       text-align: justify
       &::after
@@ -886,6 +895,12 @@ body
       &-descr
          margin: 10px 0 15px
    &__section
+      &--spares
+         margin-bottom: 15px
+         .product__head
+            border-bottom: none
+         p
+            margin: 0
       p
          color: #000
       &--consumables
@@ -904,6 +919,31 @@ body
          width: 70%
          border: 1px solid #b2b2b2
          border-right: none
+         &--spares
+            float: left
+            display: block
+            padding: 10px 20px
+            width: 45%
+            box-shadow: 0 0 3px #2d2d2d
+            border-radius: 3px
+            border: none
+            p
+               padding: 5px 0
+            p:first-of-type
+               border-bottom: 1px solid #a5a5a5
+         &--full
+            display: block
+            -webkit-box-sizing: border-box
+            -moz-box-sizing: border-box
+            box-sizing: border-box
+            width: 100%
+            box-shadow: 0 0 3px #2d2d2d
+            border-radius: 3px
+            border: none
+            color: #000
+            p
+               padding: 5px 0
+
       &-title
          margin-bottom: 10px
          font-size: 14px
@@ -923,6 +963,14 @@ body
       margin: 10px 0 15px
       font-size: 0
       text-align: center
+      &--spares
+         +clr
+         img
+            margin: 55px 0 15px
+            float: left
+         img + img
+            float: right
+            margin: 0
       p
          font-size: 13px
       &-img
@@ -1094,3 +1142,5 @@ body
       color: #000!important
       font-size: 13px!important
       font-weight: 700!important
+
+// SPARES PAGE
