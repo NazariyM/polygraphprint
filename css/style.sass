@@ -516,7 +516,7 @@ body
       +clr
       ul
          margin: 0
-         padding: 15px 0
+         padding: 15px 0 21px
          float: right
          width: 800px
          height: 100%
@@ -708,7 +708,6 @@ body
       line-height: 1.3
 
 .equip
-   margin: 0 -20px
    &__table
       border: 1px solid #b2b2b2
       border-bottom: none
@@ -724,7 +723,6 @@ body
       border-bottom: 1px solid #b2b2b2
    &__product
       display: table-row
-      margin: 0
       font-size: 0
       text-decoration: none
       color: #000
@@ -757,7 +755,6 @@ body
       font-size: 12px
 
 .product
-   margin-right: -20px
    &__nav
       font-size: 0
       &--repair .product__nav-link.is-active
@@ -994,9 +991,33 @@ body
    padding-bottom: 15px
    background: #fff
    +clr
+   &--home
+      margin-bottom: 15px
+      text-align: center
+      .contact__block
+         padding: 0
+      .contact__phones
+         margin-bottom: 13px
+         text-align: center
+         a
+            display: inline-block
+            width: 50%
+         a + a
+            margin-left: -3px
+      .contact__email
+         padding: 10px 0
+         text-align: center
+      .skype-call
+         margin-bottom: 13px
+         display: inline-block
+         width: 50%
+         text-align: center
+         ul
+            left: calc(50% - 120px)
+      .skype-call + .skype-call
+         margin-left: -4px
    &__title
       margin: 0
-      padding-top: 15px
    &__block
       box-sizing: border-box
       padding: 0 70px
@@ -1005,15 +1026,16 @@ body
       &:nth-child(3)
          float: right
    &__sub-title
-      margin: 15px 0 5px
+      margin: 15px 0 10px
       a
          font-size: 14px
    &__phones,
    &__email,
    &__country
-      margin-bottom: 10px
+      margin-bottom: 8px
       span
          display: block
+         margin-bottom: 5px
          font-weight: 700
          font-size: 13px
    &__email
@@ -1031,6 +1053,8 @@ body
       color: #000
       &:hover
          text-decoration: underline
+   h3
+      margin: 0 0 20px
 
 .skype-call
    position: relative
@@ -1050,6 +1074,7 @@ body
       border: none!important
       background: #c8c8c8 !important
       box-shadow: 0  0 5px #000
+      z-index: 1000
       li
          line-height: 20px
          text-align: center

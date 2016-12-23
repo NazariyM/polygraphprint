@@ -24,7 +24,7 @@ $(document).ready(function () {
         SkypeBody.css('display', 'inline-block');
         SkypeImg.remove();
         SkypeMessage.text('Связаться через Skype:').css('font-size', '13px');
-        FirstLinkName.text('Подзвонить');
+        FirstLinkName.text('Позвонить');
         LastLinkName.text('Написать');
     })();
 
