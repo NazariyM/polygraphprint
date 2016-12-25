@@ -574,7 +574,6 @@ body
                color: #416dc7
             &:nth-child(5):hover a
                color: #7326a2
-
             a
                width: 105px
                display: block
@@ -760,10 +759,34 @@ body
       font-size: 0
       &--repair .product__nav-link.is-active
          background-color: #69af3f
+         color: #000
       &--repair .product__nav-link:hover
          background-color: #ca3c2a
       &--repair .product__nav-link
          padding: 6px 18px
+      &--support .product__nav-link.is-active
+         background-color: #ffc200
+         color: #000
+      &--support .product__nav-link
+         padding: 5px
+         height: 82px
+         border-bottom: 2px solid #fff
+         &::after
+            content: ''
+            display: inline-block
+            vertical-align: middle
+            height: 100%
+            width: 0
+         span
+            display: inline-block
+            vertical-align: middle
+         &:nth-child(5)
+            border-right: none
+         &--sub
+            width: 25%
+            height: 50px
+            &.is-active
+               background-color: #ff9800
       &--consumables .product__nav-link.is-active
          background-color: #7030A0
       &--consumables .product__nav-link
@@ -833,6 +856,10 @@ body
          display: inline-block
          vertical-align: middle
          width: 100%
+      .product__sub-title
+         display: inline-block
+         vertical-align: middle
+         text-transform: uppercase
       p
          display: inline-block
          vertical-align: middle
@@ -840,6 +867,8 @@ body
          font-weight: 700
       .product__brochure
          vertical-align: middle
+      &--support
+         margin: 10px 0 0
    &__title
       display: inline-block
       vertical-align: bottom
@@ -854,6 +883,11 @@ body
       p
          font-size: 13px!important
          text-align: left
+   &__img
+      img
+         display: block
+         margin: 0 auto
+         border-radius: 3px
    &__img-repair
       display: block
       padding: 1px
@@ -910,6 +944,13 @@ body
          text-align: right
          .product__brochure
             background-color: #7030A0
+      &--support
+         margin: 15px 0
+         .product__brochure
+            background-color: #ffc200
+            color: #000
+            &:hover
+               background-color: #ff9800
    &__item
       display: table
       margin: 10px 40px
@@ -987,7 +1028,6 @@ body
             margin: 3px
          &--2
             width: 25%
-            vertical-align: top
             margin: 3px
             vertical-align: middle
             &:nth-child(2),
@@ -1033,6 +1073,28 @@ body
             width: 100%
          &--10
             display: block
+   &__list-b
+      font-weight: 700
+   &__feature
+      &-title
+         font-weight: 700
+      &-list
+         list-style: none
+         li
+            position: relative
+            +clr
+            &::before
+               content: ''
+               position: absolute
+               top: 6px
+               left: - 13px
+               height: 4px
+               width: 4px
+               background-color: #000
+               border-radius: 50%
+         span
+            float: left
+            width: 20%
 
 .aluberg-logo
    width: 200px
@@ -1040,6 +1102,15 @@ body
    &--material
       display: block
 
+.grafikontrol-logo
+   width: 350px
+   display: inline-block
+   vertical-align: middle
+
+.labeltech-logo
+   width: 300px
+   display: inline-block
+   vertical-align: middle
 
 // CONTACT PAGE
 .contact
@@ -1153,4 +1224,8 @@ body
       font-size: 13px!important
       font-weight: 700!important
 
-// SPARES PAGE
+// Other
+
+.shadow-img
+   box-shadow: 0 0 3px #2d2d2d
+   border-radius: 3px

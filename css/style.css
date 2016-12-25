@@ -701,11 +701,35 @@ body {
 .product__nav {
   font-size: 0; }
   .product__nav--repair .product__nav-link.is-active {
-    background-color: #69af3f; }
+    background-color: #69af3f;
+    color: #000; }
   .product__nav--repair .product__nav-link:hover {
     background-color: #ca3c2a; }
   .product__nav--repair .product__nav-link {
     padding: 6px 18px; }
+  .product__nav--support .product__nav-link.is-active {
+    background-color: #ffc200;
+    color: #000; }
+  .product__nav--support .product__nav-link {
+    padding: 5px;
+    height: 82px;
+    border-bottom: 2px solid #fff; }
+    .product__nav--support .product__nav-link::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+      width: 0; }
+    .product__nav--support .product__nav-link span {
+      display: inline-block;
+      vertical-align: middle; }
+    .product__nav--support .product__nav-link:nth-child(5) {
+      border-right: none; }
+    .product__nav--support .product__nav-link--sub {
+      width: 25%;
+      height: 50px; }
+      .product__nav--support .product__nav-link--sub.is-active {
+        background-color: #ff9800; }
   .product__nav--consumables .product__nav-link.is-active {
     background-color: #7030A0; }
   .product__nav--consumables .product__nav-link {
@@ -774,6 +798,10 @@ body {
     display: inline-block;
     vertical-align: middle;
     width: 100%; }
+  .product__request .product__sub-title {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase; }
   .product__request p {
     display: inline-block;
     vertical-align: middle;
@@ -781,6 +809,8 @@ body {
     font-weight: 700; }
   .product__request .product__brochure {
     vertical-align: middle; }
+  .product__request--support {
+    margin: 10px 0 0; }
 .product__title {
   display: inline-block;
   vertical-align: bottom;
@@ -795,6 +825,10 @@ body {
   .product__text p {
     font-size: 13px !important;
     text-align: left; }
+.product__img img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px; }
 .product__img-repair {
   display: block;
   padding: 1px;
@@ -850,6 +884,13 @@ body {
   text-align: right; }
   .product__section--consumables .product__brochure {
     background-color: #7030A0; }
+.product__section--support {
+  margin: 15px 0; }
+  .product__section--support .product__brochure {
+    background-color: #ffc200;
+    color: #000; }
+    .product__section--support .product__brochure:hover {
+      background-color: #ff9800; }
 .product__item {
   display: table;
   margin: 10px 40px;
@@ -930,7 +971,6 @@ body {
       margin: 3px; }
     .product__material-img--2 {
       width: 25%;
-      vertical-align: top;
       margin: 3px;
       vertical-align: middle; }
       .product__material-img--2:nth-child(2), .product__material-img--2:nth-child(3) {
@@ -974,12 +1014,47 @@ body {
       width: 100%; }
     .product__material-img--10 {
       display: block; }
+.product__list-b {
+  font-weight: 700; }
+.product__feature-title {
+  font-weight: 700; }
+.product__feature-list {
+  list-style: none; }
+  .product__feature-list li {
+    position: relative;
+    *zoom: 1; }
+    .product__feature-list li:after {
+      content: " ";
+      display: table;
+      clear: both; }
+    .product__feature-list li::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: -13px;
+      height: 4px;
+      width: 4px;
+      background-color: #000;
+      border-radius: 50%; }
+  .product__feature-list span {
+    float: left;
+    width: 20%; }
 
 .aluberg-logo {
   width: 200px;
   display: none; }
   .aluberg-logo--material {
     display: block; }
+
+.grafikontrol-logo {
+  width: 350px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.labeltech-logo {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle; }
 
 .contact {
   display: inline-block;
@@ -1089,5 +1164,9 @@ body {
     color: #000 !important;
     font-size: 13px !important;
     font-weight: 700 !important; }
+
+.shadow-img {
+  box-shadow: 0 0 3px #2d2d2d;
+  border-radius: 3px; }
 
 /*# sourceMappingURL=style.css.map */
