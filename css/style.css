@@ -1056,6 +1056,11 @@ body {
   display: inline-block;
   vertical-align: middle; }
 
+.ecosystem-logo {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle; }
+
 .contact {
   display: inline-block;
   width: 100%;
