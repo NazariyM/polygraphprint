@@ -442,11 +442,10 @@ body {
     width: 100%;
     height: 260px; }
     .header .header_main .top_menu {
-      width: 100%;
-      height: 54px; }
+      width: 100%; }
       .header .header_main .top_menu ul {
         float: right;
-        margin-right: 20px; }
+        margin: 5px 20px 5px 0; }
         .header .header_main .top_menu ul li {
           display: inline;
           list-style-type: none;
@@ -601,7 +600,7 @@ body {
     .footer .f_left .f_content {
       width: 580px;
       height: 75px;
-      margin: 0 0 0 25px;
+      margin: 25px 0 25px 25px;
       padding: 0;
       position: relative; }
       .footer .f_left .f_content p {
@@ -610,14 +609,9 @@ body {
         color: #FFFFFF;
         font-size: 11px;
         line-height: 14px; }
-    .footer .f_left .f_addr, .footer .f_left .f_tel {
-      float: left;
-      margin: 10px 0 0 25px; }
-    .footer .f_left .f_addr p, .footer .f_left .f_tel p {
-      padding: 0;
-      margin: 0; }
   .footer .f_right {
-    width: 150px;
+    margin: 30px 0 0 0;
+    width: 195px;
     float: left;
     position: relative; }
     .footer .f_right ul {
@@ -628,7 +622,7 @@ body {
         list-style-type: none;
         padding: 4px 0;
         text-align: center;
-        width: 110px; }
+        line-height: 20px; }
         .footer .f_right ul li a {
           color: #000000;
           text-decoration: none; }
@@ -1107,9 +1101,9 @@ body {
     .contact__block:nth-child(3) {
       float: right; }
   .contact__sub-title {
-    margin: 15px 0 10px; }
-    .contact__sub-title a {
-      font-size: 14px; }
+    margin: 15px 0 10px;
+    font-size: 14px;
+    font-weight: 700; }
   .contact__phones, .contact__email, .contact__country {
     margin-bottom: 8px; }
     .contact__phones span, .contact__email span, .contact__country span {
