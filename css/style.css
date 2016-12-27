@@ -439,10 +439,14 @@ body {
     .header .header_top #phone {
       background-image: url("../img/i_tel.png?1404939154"); }
   .header .header_main {
-    width: 100%;
-    height: 260px; }
+    width: 100%; }
     .header .header_main .top_menu {
-      width: 100%; }
+      width: 100%;
+      *zoom: 1; }
+      .header .header_main .top_menu:after {
+        content: " ";
+        display: table;
+        clear: both; }
       .header .header_main .top_menu ul {
         float: right;
         margin: 5px 20px 5px 0; }
@@ -457,10 +461,56 @@ body {
           .header .header_main .top_menu ul li:last-of-type {
             border: none; }
     .header .header_main #image {
-      /*  background-image: url('../img/header-bg.png?1404939154'); */
       width: 803px;
-      height: 207px;
-      float: right; }
+      height: 232px;
+      float: right;
+      position: relative;
+      top: 2px; }
+      .header .header_main #image img {
+        height: 100%; }
+    .header .header_main .header__img {
+      width: 803px;
+      height: 270px;
+      position: relative;
+      top: 2px;
+      float: right;
+      overflow: hidden; }
+      .header .header_main .header__img--1 {
+        background: url(../img/iflex-1.jpg) no-repeat center center;
+        -webkit-background-size: 172% 136%;
+        background-size: 172% 136%; }
+      .header .header_main .header__img--2 {
+        background: url(../img/header_x2.jpg) no-repeat 42% 52%;
+        -webkit-background-size: 147% 140%;
+        background-size: 147% 140%; }
+      .header .header_main .header__img--3 {
+        background: url(../img/xflex_x4_x5.jpg) no-repeat 35% 41%;
+        -webkit-background-size: 149% 141%;
+        background-size: 149% 141%; }
+      .header .header_main .header__img--4 {
+        background: url(../img/header_x6.jpg) no-repeat 35% 41%;
+        -webkit-background-size: 152% 142%;
+        background-size: 152% 142%; }
+      .header .header_main .header__img--5 {
+        background: url(../img/header_varyflexv2.jpg) no-repeat 38% 10%;
+        -webkit-background-size: 136% 116%;
+        background-size: 136% 116%; }
+      .header .header_main .header__img--6 {
+        background: url(../img/Tv_503.jpg) no-repeat 38% 10%;
+        -webkit-background-size: 136% 116%;
+        background-size: 136% 116%; }
+      .header .header_main .header__img--7 {
+        background: url(../img/Fv_line.jpg) no-repeat 38% 10%;
+        -webkit-background-size: 136% 116%;
+        background-size: 136% 116%; }
+      .header .header_main .header__img--8 {
+        background: url(../img/Tv_840.jpg) no-repeat 38% 10%;
+        -webkit-background-size: 136% 116%;
+        background-size: 136% 116%; }
+      .header .header_main .header__img--9 {
+        background: url(../img/As_line.jpg) no-repeat 38% 10%;
+        -webkit-background-size: 136% 116%;
+        background-size: 136% 116%; }
   .header .header_bottom {
     width: 100%;
     *zoom: 1; }
@@ -475,6 +525,8 @@ body {
       width: 800px;
       height: 100%;
       background-color: #ffffff; }
+      .header .header_bottom ul.product__menu {
+        padding-top: 5px; }
       .header .header_bottom ul li {
         float: left;
         -webkit-box-sizing: border-box;
@@ -522,7 +574,7 @@ body {
         .header .header_bottom ul li:nth-child(5):hover a {
           color: #7326a2; }
         .header .header_bottom ul li a {
-          width: 105px;
+          width: 107px;
           display: block;
           padding: 15px 5px 8px;
           margin: 0 auto;
@@ -531,10 +583,6 @@ body {
           font-weight: 700;
           font-size: 13px;
           transition: 0.4s ease-in-out; }
-        .header .header_bottom ul li br {
-          display: none; }
-        .header .header_bottom ul li img {
-          display: none; }
 
 /* Middle
  *----------------------------------------------------------------------------- */
@@ -661,7 +709,6 @@ body {
   border-bottom: 1px solid #b2b2b2; }
 .equip__product {
   display: table-row;
-  font-size: 0;
   text-decoration: none;
   color: #000; }
   .equip__product:hover .equip__product-name, .equip__product:hover .equip__product-descr {
@@ -684,6 +731,7 @@ body {
   border-right: 1px solid #b2b2b2; }
   .equip__product-img img {
     display: block;
+    width: 100%;
     transform: scale(1.4);
     object-position: 0 4px; }
   .equip__product-img .product-img--scaled {
@@ -811,21 +859,28 @@ body {
     display: inline-block;
     vertical-align: middle; }
   .product__request--down {
-    display: table-footer-group; }
+    display: table-row;
+    *zoom: 1; }
+    .product__request--down:after {
+      content: " ";
+      display: table;
+      clear: both; }
     .product__request--down .product__brochure {
       padding: 5px 72px; }
-    .product__request--down .product__brochure + .product__brochure {
-      margin-left: 3px; }
+      .product__request--down .product__brochure:first-child {
+        float: left; }
+      .product__request--down .product__brochure:last-child {
+        float: right; }
 .product__title {
-  display: inline-block;
-  vertical-align: middle;
+  float: left;
+  margin-top: 7px;
   margin-bottom: 0;
   text-align: left;
-  width: calc(100% - 237px); }
+  width: 70.375%; }
   .product__title--lg {
-    width: calc(100% - 113px); }
+    width: 85.875%; }
   .product__title--full {
-    width: calc(100% - 610px); }
+    width: 24%; }
 .product__text {
   margin: 10px 0 0;
   text-align: right; }
@@ -947,6 +1002,7 @@ body {
     width: 30%;
     border: 1px solid #b2b2b2; }
     .product__item-img img {
+      width: 100%;
       display: block; }
 .product__material {
   margin: 10px 0 15px;
@@ -977,13 +1033,10 @@ body {
       width: 34%;
       margin: 3px; }
     .product__material-img--2 {
-      width: 25%;
+      width: 200px;
+      height: 180px;
       margin: 3px;
       vertical-align: middle; }
-      .product__material-img--2:nth-child(2), .product__material-img--2:nth-child(3) {
-        display: inline-block;
-        width: calc(50% - 6px);
-        margin: 3px; }
     .product__material-img--3:nth-child(1) {
       float: left;
       width: 50%;
