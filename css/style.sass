@@ -521,9 +521,9 @@ body
          float: right
          overflow: hidden
          &--1
-            background: url(../img/iflex-1.jpg) no-repeat center center
-            -webkit-background-size: 172% 136%
-            background-size: 172% 136%
+            background: url(../img/iflex-1.jpg) no-repeat 38% 49%
+            -webkit-background-size: 167% 137%
+            background-size: 160% 137%
          &--2
             background: url(../img/header_x2.jpg) no-repeat 42% 52%
             -webkit-background-size: 147% 140%
@@ -556,6 +556,10 @@ body
             background: url(../img/As_line.jpg) no-repeat 38% 10%
             -webkit-background-size: 136% 116%
             background-size: 136% 116%
+         &--10
+            background: url(../img/xflex_x5.jpg) no-repeat 35% 41%
+            -webkit-background-size: 149% 141%
+            background-size: 149% 141%
 
 
    .header_bottom
@@ -886,7 +890,7 @@ body
       font-size: 12px
       color: #fff
       text-decoration: none
-      background-color: darken(#69af3f, 5)
+      background-color: #ca3c2a
       transition: .2s ease-in
       &:hover
          background-color: lighten(#69af3f, 5)
@@ -908,8 +912,6 @@ body
          vertical-align: middle
          margin: 0
          font-weight: 700
-      .product__brochure
-         vertical-align: middle
       &--support
          margin: 10px 0 0
       &-in
@@ -989,6 +991,10 @@ body
    &__section
       &--repair
          margin-top: 15px
+         .product__brochure
+            background-color: #69af3f
+            &:hover
+               background-color: darken(#69af3f, 10)
       &--spares
          margin-bottom: 15px
          .product__head
@@ -1002,13 +1008,15 @@ body
          text-align: right
          .product__brochure
             background-color: #7030A0
+            &:hover
+               background-color: #69af3f
       &--support
          margin: 15px 0
          .product__brochure
             background-color: #ffc200
             color: #000
             &:hover
-               background-color: #ff9800
+               background-color: #69af3f
    &__item
       display: table
       margin: 10px 40px
