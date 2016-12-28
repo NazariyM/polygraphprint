@@ -893,6 +893,16 @@ body {
   display: block;
   margin: 0 auto;
   border-radius: 3px; }
+.product__img--double {
+  margin-top: 3px; }
+  .product__img--double img {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 0; }
+    .product__img--double img:nth-child(1) {
+      width: 55.6%; }
+    .product__img--double img:nth-child(2) {
+      width: 44%; }
 .product__img-repair {
   display: block;
   padding: 1px;
@@ -1083,30 +1093,34 @@ body {
     .product__material-img--10 {
       display: block; }
 .product__list-b {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-weight: 700; }
-.product__feature-title {
-  font-weight: 700; }
-.product__feature-list {
-  list-style: none; }
-  .product__feature-list li {
-    position: relative;
-    *zoom: 1; }
-    .product__feature-list li:after {
-      content: " ";
-      display: table;
-      clear: both; }
-    .product__feature-list li::before {
-      content: "";
-      position: absolute;
-      top: 6px;
-      left: -13px;
-      height: 4px;
-      width: 4px;
-      background-color: #000;
-      border-radius: 50%; }
-  .product__feature-list span {
-    float: left;
-    width: 30%; }
+.product__feature {
+  margin: 15px 0; }
+  .product__feature-title {
+    font-weight: 700; }
+  .product__feature-list {
+    list-style: none; }
+    .product__feature-list li {
+      position: relative;
+      *zoom: 1; }
+      .product__feature-list li:after {
+        content: " ";
+        display: table;
+        clear: both; }
+      .product__feature-list li::before {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: -13px;
+        height: 4px;
+        width: 4px;
+        background-color: #000;
+        border-radius: 50%; }
+    .product__feature-list span {
+      float: left;
+      width: 30%; }
 
 .aluberg-logo {
   width: 200px;
@@ -1146,29 +1160,46 @@ body {
     clear: both; }
   .contact--home {
     margin-bottom: 15px;
+    padding-bottom: 0;
     text-align: center; }
     .contact--home .contact__block {
       padding: 0; }
+      .contact--home .contact__block span {
+        text-decoration: underline;
+        font-weight: 400; }
+      .contact--home .contact__block a {
+        font-weight: 700; }
+      .contact--home .contact__block:nth-child(2) {
+        float: none; }
+    .contact--home .contact__country {
+      margin: 0 auto 15px;
+      max-width: 260px;
+      font-weight: 700; }
     .contact--home .contact__phones {
       margin-bottom: 13px;
       text-align: center; }
       .contact--home .contact__phones a {
-        display: inline-block;
-        width: 50%; }
-      .contact--home .contact__phones a + a {
-        margin-left: -3px; }
+        display: table;
+        width: 100%; }
     .contact--home .contact__email {
       padding: 10px 0;
       text-align: center; }
+      .contact--home .contact__email span {
+        display: block;
+        text-decoration: underline; }
     .contact--home .skype-call {
-      margin-bottom: 13px;
+      margin: 0;
       display: inline-block;
       width: 50%;
       text-align: center; }
+      .contact--home .skype-call a {
+        font-weight: 400 !important; }
       .contact--home .skype-call ul {
         left: calc(50% - 120px); }
     .contact--home .skype-call + .skype-call {
       margin-left: -4px; }
+    .contact--home .skype-call__name {
+      display: block !important; }
   .contact__title {
     margin: 0; }
   .contact__block {
@@ -1207,7 +1238,9 @@ body {
   position: relative;
   margin: 10px 0; }
   .skype-call__name {
-    font-size: 13px; }
+    display: inline-block !important;
+    font-size: 13px;
+    font-weight: 700; }
   .skype-call img {
     visibility: hidden;
     margin: 0 !important; }
